@@ -6,8 +6,8 @@ body {
 
 .slider-container {
     position: relative;
-    width: 100%;
-    max-width: 800px;
+    width: 1992px;
+    height:557px;
     margin: 0 auto;
     overflow: hidden;
 }
