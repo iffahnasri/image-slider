@@ -1,0 +1,33 @@
+/* styles.css */
+/* CSS styles for the image slider */
+/* Container for the image slider */
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+}
+
+/* Individual slides */
+.slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* Navigation buttons (optional) */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
